@@ -1,0 +1,23 @@
+{
+  "name": "contentful-metalsmith-build-task",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Stan Bondi <stan@fixate.it>",
+  "license": "MIT",
+  "dependencies": {
+    "contentful-metalsmith": "^0.11.0",
+    "debug": "^2.6.8",
+    "deep-assign": "^2.0.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-data-markdown": "^0.0.3",
+    "metalsmith-jstransformer": "^0.11.0",
+    "metalsmith-layouts": "^1.8.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-pug": "^2.0.0",
+    "metalsmith-timer": "^0.0.2",
+    "node-fetch": "^1.7.1",
+    "unzip": "^0.1.11",
+    "yargs": "^8.0.2"
+  }
+}
