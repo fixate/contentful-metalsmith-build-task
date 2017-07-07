@@ -31,19 +31,6 @@ module.exports = function build(workingDir, config) {
       .use(timer('markdown'))
       .use(
         layouts(layoutsConf)
-        // {
-        //   directory: `${conf.path.dev.views}/_layouts`,
-        //   default: '_default.pug',
-        //   engine: 'pug',
-        //   pattern: '**/{index,app}.{html,pug}',
-        //   // pattern: [
-        //   //   'blog/**/index.{pug,html}',
-        //   //   '**/_blog.{pug,html}',
-        //   // ],
-
-        //   pretty: true,
-        //   rename: true,
-        // })
       )
       .use(timer('layouts'))
       .use(
